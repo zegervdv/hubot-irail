@@ -1,0 +1,36 @@
+{
+  "name": "hubot-irail",
+  "version": "1.0.0",
+  "description": "Train information for Hubot",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require coffeescript/register --reporter spec \"test/**/*.coffee\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zegervdv/hubot-irail.git"
+  },
+  "keywords": [
+    "hubot",
+    "irail",
+    "trains"
+  ],
+  "author": "Zeger Van de Vannet <zegervdv@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zegervdv/hubot-irail/issues"
+  },
+  "homepage": "https://github.com/zegervdv/hubot-irail#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "hubot-pretend": "^1.2.0",
+    "mocha": "^4.0.1",
+    "mz": "^2.7.0",
+    "nock": "^9.1.4"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "coffeescript": "^2.1.0",
+    "superagent": "^3.8.2"
+  }
+}
