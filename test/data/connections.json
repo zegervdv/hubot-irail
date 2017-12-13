@@ -1,0 +1,523 @@
+{
+    "version": "1.1",
+    "timestamp": "1513192599",
+    "connection": [
+        {
+            "id": "0",
+            "departure": {
+                "delay": "0",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "id": "BE.NMBS.008821006",
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "name": "Antwerp-Central",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1513193820",
+                "vehicle": "BE.NMBS.IC720",
+                "platform": "3",
+                "platforminfo": {
+                    "name": "3",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "departureConnection": "http://irail.be/connections/8821006/20171213/IC720",
+                "direction": {
+                    "name": "Poperinge"
+                },
+                "left": "0",
+                "walking": "0",
+                "occupancy": {
+                    "@id": "http://api.irail.be/terms/unknown",
+                    "name": "unknown"
+                }
+            },
+            "arrival": {
+                "delay": "0",
+                "station": "Ghent-Sint-Pieters",
+                "stationinfo": {
+                    "id": "BE.NMBS.008892007",
+                    "locationX": "3.710675",
+                    "locationY": "51.035896",
+                    "@id": "http://irail.be/stations/NMBS/008892007",
+                    "name": "Ghent-Sint-Pieters",
+                    "standardname": "Gent-Sint-Pieters"
+                },
+                "time": "1513197180",
+                "vehicle": "BE.NMBS.IC720",
+                "platform": "4",
+                "platforminfo": {
+                    "name": "4",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Poperinge"
+                },
+                "arrived": "0",
+                "walking": "0"
+            },
+            "duration": "3360",
+            "occupancy": {
+                "@id": "http://api.irail.be/terms/unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "id": "1",
+            "departure": {
+                "delay": "0",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "id": "BE.NMBS.008821006",
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "name": "Antwerp-Central",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1513194660",
+                "vehicle": "BE.NMBS.IC3020",
+                "platform": "1",
+                "platforminfo": {
+                    "name": "1",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "departureConnection": "http://irail.be/connections/8821006/20171213/IC3020",
+                "direction": {
+                    "name": "De Panne"
+                },
+                "left": "0",
+                "walking": "0",
+                "occupancy": {
+                    "@id": "http://api.irail.be/terms/unknown",
+                    "name": "unknown"
+                }
+            },
+            "arrival": {
+                "delay": "0",
+                "station": "Ghent-Sint-Pieters",
+                "stationinfo": {
+                    "id": "BE.NMBS.008892007",
+                    "locationX": "3.710675",
+                    "locationY": "51.035896",
+                    "@id": "http://irail.be/stations/NMBS/008892007",
+                    "name": "Ghent-Sint-Pieters",
+                    "standardname": "Gent-Sint-Pieters"
+                },
+                "time": "1513198140",
+                "vehicle": "BE.NMBS.IC3020",
+                "platform": "3",
+                "platforminfo": {
+                    "name": "3",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "De Panne"
+                },
+                "arrived": "0",
+                "walking": "0"
+            },
+            "duration": "3480",
+            "occupancy": {
+                "@id": "http://api.irail.be/terms/unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "id": "2",
+            "departure": {
+                "delay": "0",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "id": "BE.NMBS.008821006",
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "name": "Antwerp-Central",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1513195560",
+                "vehicle": "BE.NMBS.IC1842",
+                "platform": "1",
+                "platforminfo": {
+                    "name": "1",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "departureConnection": "http://irail.be/connections/8821006/20171213/IC1842",
+                "direction": {
+                    "name": "Oostende"
+                },
+                "left": "0",
+                "walking": "0",
+                "occupancy": {
+                    "@id": "http://api.irail.be/terms/unknown",
+                    "name": "unknown"
+                }
+            },
+            "arrival": {
+                "delay": "0",
+                "station": "Ghent-Sint-Pieters",
+                "stationinfo": {
+                    "id": "BE.NMBS.008892007",
+                    "locationX": "3.710675",
+                    "locationY": "51.035896",
+                    "@id": "http://irail.be/stations/NMBS/008892007",
+                    "name": "Ghent-Sint-Pieters",
+                    "standardname": "Gent-Sint-Pieters"
+                },
+                "time": "1513199220",
+                "vehicle": "BE.NMBS.IC1842",
+                "platform": "2",
+                "platforminfo": {
+                    "name": "2",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Oostende"
+                },
+                "arrived": "0",
+                "walking": "0"
+            },
+            "duration": "3660",
+            "occupancy": {
+                "@id": "http://api.irail.be/terms/unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "id": "3",
+            "departure": {
+                "delay": "0",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "id": "BE.NMBS.008821006",
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "name": "Antwerp-Central",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1513197420",
+                "vehicle": "BE.NMBS.IC721",
+                "platform": "1",
+                "platforminfo": {
+                    "name": "1",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "departureConnection": "http://irail.be/connections/8821006/20171213/IC721",
+                "direction": {
+                    "name": "Poperinge"
+                },
+                "left": "0",
+                "walking": "0",
+                "occupancy": {
+                    "@id": "http://api.irail.be/terms/unknown",
+                    "name": "unknown"
+                }
+            },
+            "arrival": {
+                "delay": "0",
+                "station": "Ghent-Sint-Pieters",
+                "stationinfo": {
+                    "id": "BE.NMBS.008892007",
+                    "locationX": "3.710675",
+                    "locationY": "51.035896",
+                    "@id": "http://irail.be/stations/NMBS/008892007",
+                    "name": "Ghent-Sint-Pieters",
+                    "standardname": "Gent-Sint-Pieters"
+                },
+                "time": "1513200780",
+                "vehicle": "BE.NMBS.IC721",
+                "platform": "4",
+                "platforminfo": {
+                    "name": "4",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Poperinge"
+                },
+                "arrived": "0",
+                "walking": "0"
+            },
+            "duration": "3360",
+            "occupancy": {
+                "@id": "http://api.irail.be/terms/unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "id": "4",
+            "departure": {
+                "delay": "0",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "id": "BE.NMBS.008821006",
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "name": "Antwerp-Central",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1513198080",
+                "vehicle": "BE.NMBS.IC2621",
+                "platform": "21",
+                "platforminfo": {
+                    "name": "21",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "departureConnection": "http://irail.be/connections/8821006/20171213/IC2621",
+                "direction": {
+                    "name": "Hasselt"
+                },
+                "left": "0",
+                "walking": "0",
+                "occupancy": {
+                    "@id": "http://api.irail.be/terms/unknown",
+                    "name": "unknown"
+                }
+            },
+            "arrival": {
+                "delay": "0",
+                "station": "Ghent-Sint-Pieters",
+                "stationinfo": {
+                    "id": "BE.NMBS.008892007",
+                    "locationX": "3.710675",
+                    "locationY": "51.035896",
+                    "@id": "http://irail.be/stations/NMBS/008892007",
+                    "name": "Ghent-Sint-Pieters",
+                    "standardname": "Gent-Sint-Pieters"
+                },
+                "time": "1513202640",
+                "vehicle": "BE.NMBS.IC4143",
+                "platform": "9",
+                "platforminfo": {
+                    "name": "9",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Gent-Sint-Pieters"
+                },
+                "arrived": "0",
+                "walking": "0"
+            },
+            "duration": "4560",
+            "remarks": {
+                "number": "2",
+                "remark": [
+                    {
+                        "id": "0",
+                        "code": "WAITING",
+                        "description": "The connection of IC  4143 will be guaranteed as long as the delay is less than 13 min."
+                    },
+                    {
+                        "id": "1",
+                        "code": "WAITING",
+                        "description": "The connection of IC  4143 will be guaranteed as long as the delay is less than 13 min."
+                    }
+                ]
+            },
+            "vias": {
+                "number": "1",
+                "via": [
+                    {
+                        "id": "0",
+                        "arrival": {
+                            "time": "1513199160",
+                            "platform": "10",
+                            "platforminfo": {
+                                "name": "10",
+                                "normal": "1"
+                            },
+                            "isExtraStop": "0",
+                            "delay": "0",
+                            "canceled": "0",
+                            "arrived": "0",
+                            "walking": "0",
+                            "direction": {
+                                "name": "Hasselt"
+                            },
+                            "vehicle": "BE.NMBS.IC2621",
+                            "departureConnection": "http://irail.be/connections/8822004/20171213/IC2621"
+                        },
+                        "departure": {
+                            "time": "1513199640",
+                            "platform": "2",
+                            "platforminfo": {
+                                "name": "2",
+                                "normal": "1"
+                            },
+                            "isExtraStop": "0",
+                            "delay": "0",
+                            "canceled": "0",
+                            "left": "0",
+                            "walking": "0",
+                            "direction": {
+                                "name": "Gent-Sint-Pieters"
+                            },
+                            "vehicle": "BE.NMBS.IC4143",
+                            "departureConnection": "http://irail.be/connections/8822004/20171213/IC4143",
+                            "occupancy": {
+                                "@id": "http://api.irail.be/terms/unknown",
+                                "name": "unknown"
+                            }
+                        },
+                        "timeBetween": "480",
+                        "station": "Mechelen",
+                        "stationinfo": {
+                            "id": "BE.NMBS.008822004",
+                            "locationX": "4.482785",
+                            "locationY": "51.017648",
+                            "@id": "http://irail.be/stations/NMBS/008822004",
+                            "standardname": "Mechelen",
+                            "name": "Mechelen"
+                        },
+                        "vehicle": "BE.NMBS.IC2621",
+                        "direction": {
+                            "name": "Hasselt"
+                        }
+                    }
+                ]
+            },
+            "occupancy": {
+                "@id": "http://api.irail.be/terms/unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "id": "5",
+            "departure": {
+                "delay": "0",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "id": "BE.NMBS.008821006",
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "name": "Antwerp-Central",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1513198500",
+                "vehicle": "BE.NMBS.IC4543",
+                "platform": "23",
+                "platforminfo": {
+                    "name": "23",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "departureConnection": "http://irail.be/connections/8821006/20171213/IC4543",
+                "direction": {
+                    "name": "Charleroi-Sud"
+                },
+                "left": "0",
+                "walking": "0",
+                "occupancy": {
+                    "@id": "http://api.irail.be/terms/unknown",
+                    "name": "unknown"
+                }
+            },
+            "arrival": {
+                "delay": "0",
+                "station": "Ghent-Sint-Pieters",
+                "stationinfo": {
+                    "id": "BE.NMBS.008892007",
+                    "locationX": "3.710675",
+                    "locationY": "51.035896",
+                    "@id": "http://irail.be/stations/NMBS/008892007",
+                    "name": "Ghent-Sint-Pieters",
+                    "standardname": "Gent-Sint-Pieters"
+                },
+                "time": "1513203720",
+                "vehicle": "BE.NMBS.IC1544",
+                "platform": "12",
+                "platforminfo": {
+                    "name": "12",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Brugge"
+                },
+                "arrived": "0",
+                "walking": "0"
+            },
+            "duration": "5220",
+            "vias": {
+                "number": "1",
+                "via": [
+                    {
+                        "id": "0",
+                        "arrival": {
+                            "time": "1513201200",
+                            "platform": "21",
+                            "platforminfo": {
+                                "name": "21",
+                                "normal": "1"
+                            },
+                            "isExtraStop": "0",
+                            "delay": "0",
+                            "canceled": "0",
+                            "arrived": "0",
+                            "walking": "0",
+                            "direction": {
+                                "name": "Charleroi-Sud"
+                            },
+                            "vehicle": "BE.NMBS.IC4543",
+                            "departureConnection": "http://irail.be/connections/8814001/20171213/IC4543"
+                        },
+                        "departure": {
+                            "time": "1513201860",
+                            "platform": "19",
+                            "platforminfo": {
+                                "name": "19",
+                                "normal": "1"
+                            },
+                            "isExtraStop": "0",
+                            "delay": "0",
+                            "canceled": "0",
+                            "left": "0",
+                            "walking": "0",
+                            "direction": {
+                                "name": "Brugge"
+                            },
+                            "vehicle": "BE.NMBS.IC1544",
+                            "departureConnection": "http://irail.be/connections/8814001/20171213/IC1544",
+                            "occupancy": {
+                                "@id": "http://api.irail.be/terms/unknown",
+                                "name": "unknown"
+                            }
+                        },
+                        "timeBetween": "660",
+                        "station": "Brussels-South/Brussels-Midi",
+                        "stationinfo": {
+                            "id": "BE.NMBS.008814001",
+                            "locationX": "4.336531",
+                            "locationY": "50.835707",
+                            "@id": "http://irail.be/stations/NMBS/008814001",
+                            "name": "Brussels-South/Brussels-Midi",
+                            "standardname": "Brussel-Zuid/Bruxelles-Midi"
+                        },
+                        "vehicle": "BE.NMBS.IC4543",
+                        "direction": {
+                            "name": "Charleroi-Sud"
+                        }
+                    }
+                ]
+            },
+            "occupancy": {
+                "@id": "http://api.irail.be/terms/unknown",
+                "name": "unknown"
+            }
+        }
+    ]
+}
