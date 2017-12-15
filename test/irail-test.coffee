@@ -25,6 +25,16 @@ describe 'irail', =>
         }
         .reply 200, @connections_data
 
+    @api.get '/connections'
+        .query {
+           from: 'Antwerpen-Centraal'
+           to: 'Gent-Sint-Pieters'
+           timesel: 'departure'
+           format: 'json'
+           time: '2037'
+        }
+        .reply 200, @connections_data
+
     config =
       now: moment('2017-12-13 20:30:00.000').valueOf()
       shouldAdvanceTime: true
@@ -45,7 +55,11 @@ describe 'irail', =>
     result = await pretend.observer.next()
     expect(result.value[1]).to.include "The first train leaves at platform #{@connections_data.connection[0].departure.platform} at #{@time.format 'H:mm'}"
 
-  it 'can monitor connections for changes'
+  it 'can monitor connections for changes', =>
+    await @alice.send '@hubot alert me for the 20:37 train to Gent-Sint-Pieters'
+    result = await pretend.observer.next()
+    expect(result.value[1]).to.include "Monitoring your connection"
+
   it 'starts monitoring 30 mins in advance'
   it 'notifies when disturbances occur on monitored connections'
   it 'nofifies when large disturbances are occuring'
