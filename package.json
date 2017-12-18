@@ -1,6 +1,6 @@
 {
   "name": "hubot-rail-belgium",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Belgian train information for Hubot",
   "main": "index.js",
   "scripts": {
