@@ -6,7 +6,7 @@
 #  what is the first train from <location1> to <location2> - looks for trains
 
 co = require 'co'
-superagent = require 'superagent'
+request = require 'request-promise-native'
 moment = require 'moment'
 
 API_URL = 'https://api.irail.be'
@@ -27,10 +27,13 @@ class Irail
       timesel: 'departure'
       format: 'json'
 
-    superagent.get "#{API_URL}/connections"
-      .query opts
+    request {
+      uri: "#{API_URL}/connections"
+      qs: opts
+      json: true
+    }
     .then (data) =>
-      JSON.parse(data.text).connection[0]
+      data.connection[0]
 
   register_connection: (time, dest) ->
     throw Error("You need to configure a default station for this feature") unless process.env.IRAIL_DEFAULT_STATION?
@@ -43,15 +46,19 @@ class Irail
         timesel: 'departure'
         format: 'json'
         time: time
-      connection = yield superagent.get "#{API_URL}/connections"
-                                   .query opts
-      throw Error('No such connection') unless connection.ok
+      connection = yield request {
+        uri: "#{API_URL}/connections"
+        qs: opts
+        json: true
+      }
       connections = @get_connections()
       connections[hash] =
         time: time
         source: process.env.IRAIL_DEFAULT_STATION
         dest: dest
       @save_connections connections
+    .catch =>
+      throw Error('No such connection')
 
   hash_key: (time, dest, src) ->
     return "#{time}_#{dest}_#{src}"
