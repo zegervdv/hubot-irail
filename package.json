@@ -1,7 +1,7 @@
 {
-  "name": "hubot-irail",
-  "version": "1.0.0",
-  "description": "Train information for Hubot",
+  "name": "hubot-rail-belgium",
+  "version": "0.0.1",
+  "description": "Belgian train information for Hubot",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require coffeescript/register --reporter spec \"test/**/*.coffee\""
