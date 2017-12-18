@@ -1,10 +1,10 @@
-# hubot-irail
+# hubot-rail-belgium
 Train information for Hubot
 
 ## Installation
 
 ```
-npm install --save hubot-irail
+npm install --save hubot-rail-belgium
 ```
 
 Add it to the `external-scripts.json`.
